@@ -61,7 +61,6 @@ const LineItemModal = (props) => {
     };
     createLineItem();
     props.setItemModal(null);
-    navigate("/decapay/dashboard");
   };
   const imageClick = () => {
     props.setItemModal(null);
